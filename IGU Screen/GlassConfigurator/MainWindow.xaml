@@ -17,7 +17,7 @@
         <Grid Grid.Column="0" Margin="0 6 0 0">
 
             <Grid.RowDefinitions>
-                <RowDefinition Height=".3*"/>
+                <RowDefinition Height=".25*"/>
                 <RowDefinition Height="2.5*"/>
                 <RowDefinition Height="2.5*"/>
                 <RowDefinition Height="2.5*"/>
@@ -27,7 +27,7 @@
 
             <!-- Header Row for Glass Configuration-->
             <!--#region -->
-            <Grid Grid.Row="0" Height="30" VerticalAlignment="Top">                
+            <Grid Grid.Row="0" VerticalAlignment="Top">                
                 <Grid.ColumnDefinitions>
                     <ColumnDefinition Width="1*"/>
                     <ColumnDefinition Width="1*"/>
@@ -40,39 +40,33 @@
                 <Grid Grid.Row="0" Grid.Column="0">
                     <TextBlock Text="Type" 
                                 FontSize="12" 
-                                FontWeight="SemiBold" 
                                 HorizontalAlignment="Center"
-                                VerticalAlignment="Top"/>
+                                VerticalAlignment="Top" FontWeight="Bold"/>
                 </Grid>
                 <Grid Grid.Row="0" Grid.Column="1">
                     <TextBlock Text="Thickness" 
                                 FontSize="12" 
-                                FontWeight="SemiBold"
-                                HorizontalAlignment="Center"/>
+                                HorizontalAlignment="Center" FontWeight="Bold"/>
                 </Grid>
                 <Grid Grid.Row="0" Grid.Column="2">
                     <TextBlock Text="Code" 
                                 FontSize="12" 
-                                FontWeight="SemiBold"
-                                HorizontalAlignment="Center"/>
+                                HorizontalAlignment="Center" FontWeight="Bold"/>
                 </Grid>
                 <Grid Grid.Row="0" Grid.Column="3">
                     <TextBlock Text="Description" 
                                 FontSize="12" 
-                                FontWeight="SemiBold"
-                                HorizontalAlignment="Center"/>
+                                HorizontalAlignment="Center" FontWeight="Bold"/>
                 </Grid>
                 <Grid Grid.Row="0" Grid.Column="4">
                     <TextBlock Text="Coating Position" 
                                 FontSize="12" 
-                                FontWeight="SemiBold"
-                                HorizontalAlignment="Center"/>
+                                HorizontalAlignment="Center" FontWeight="Bold"/>
                 </Grid>
                 <Grid Grid.Row="0" Grid.Column="5">
                     <TextBlock Text="Glass Position" 
                                 FontSize="12" 
-                                FontWeight="SemiBold"
-                                HorizontalAlignment="Center"/>
+                                HorizontalAlignment="Center" FontWeight="Bold"/>
                 </Grid>
 
             </Grid>
@@ -155,16 +149,21 @@
                         <ColumnDefinition Width="3.5*"/>
                     </Grid.ColumnDefinitions>
 
-                    <Grid Grid.Row="1" Grid.Column="0" Margin="0 16 0 0" Background="Orange" VerticalAlignment="Center">
+                    <Grid Grid.Row="1" Grid.Column="0" Margin="0 0 0 0" VerticalAlignment="Stretch">
+                        <Grid.RowDefinitions>
+                            <RowDefinition Height="2*"/>
+                            <RowDefinition Height="1*"/>
+                            <RowDefinition Height=".8*"/>
+                        </Grid.RowDefinitions>
                         <Grid.ColumnDefinitions>
                             <ColumnDefinition Width="1*"/>
                             <ColumnDefinition Width="1*"/>
                         </Grid.ColumnDefinitions>
 
-                        <Grid Grid.Column="0" >
-                            <Label Content="Space" HorizontalAlignment="Right" VerticalAlignment="Center" Padding="5 8 5 9"/>
+                        <Grid Grid.Column="0" Grid.Row="1" Background="Orange">
+                            <Label Content="Space" HorizontalAlignment="Right" VerticalAlignment="Center" Padding="5 8 5 9" FontWeight="Bold"/>
                         </Grid>
-                        <Grid Grid.Column="1" >
+                        <Grid Grid.Column="1" Grid.Row="1" Background="Orange">
                             <TextBox x:Name="txtSpace1" TextChanged="txtSpace1_TextChanged" Height="20" Margin="2 2 2 2" VerticalAlignment="Center" HorizontalAlignment="Stretch"/>
                         </Grid>
                     </Grid>
@@ -177,28 +176,28 @@
 
                         <Grid Grid.Column="0" >
                             <Grid.RowDefinitions>
-                                <RowDefinition Height="1.5*"/>
+                                <RowDefinition Height="2*"/>
                                 <RowDefinition Height="1*"/>
-                                <RowDefinition Height="1*"/>
+                                <RowDefinition Height=".8*"/>
                             </Grid.RowDefinitions>
-                            <Grid Grid.Row="0" Background="Lime">
-                                <Label Content="Services" HorizontalAlignment="Right" VerticalAlignment="Center" />
+                            <Grid Grid.Row="0" Background="#b8ff95 ">
+                                <Label Content="Services" HorizontalAlignment="Right" VerticalAlignment="Center"  FontWeight="Bold"/>
                             </Grid>
                             <Grid Grid.Row="1" Background="Orange">
-                                <Label Content="Spacer" HorizontalAlignment="Right" VerticalAlignment="Center"/>
+                                <Label Content="Spacer" HorizontalAlignment="Right" VerticalAlignment="Center" FontWeight="Bold"/>
                             </Grid>
                             <Grid Grid.Row="2" Background="LightGray">
-                                <Label Content="Seal" HorizontalAlignment="Right" VerticalAlignment="Center"/>
+                                <Label Content="Seal" HorizontalAlignment="Right" VerticalAlignment="Center" FontWeight="Bold"/>
                             </Grid>
                         </Grid>
 
                         <Grid Grid.Column="1">
                             <Grid.RowDefinitions>
-                                <RowDefinition Height="1.5*"/>
+                                <RowDefinition Height="2*"/>
                                 <RowDefinition Height="1*"/>
-                                <RowDefinition Height="1*"/>
+                                <RowDefinition Height=".8*"/>
                             </Grid.RowDefinitions>
-                            <Grid Grid.Row="0" Grid.Column="1" Background="LimeGreen">
+                            <Grid Grid.Row="0" Grid.Column="1" Background="#d6fdc3 ">
                                 <ScrollViewer VerticalScrollBarVisibility="Auto" HorizontalScrollBarVisibility="Auto">
                                     <TextBlock Padding="8 0 0 0" x:Name="txtBlockServices1" />
                                 </ScrollViewer>
@@ -460,16 +459,21 @@
                         <ColumnDefinition Width="3.5*"/>
                     </Grid.ColumnDefinitions>
 
-                    <Grid Grid.Row="1" Grid.Column="0" Margin="0 16 0 0" Background="Orange" VerticalAlignment="Center">
+                    <Grid Grid.Row="1" Grid.Column="0" Margin="0 0 0 0" VerticalAlignment="Stretch">
+                        <Grid.RowDefinitions>
+                            <RowDefinition Height="2*"/>
+                            <RowDefinition Height="1*"/>
+                            <RowDefinition Height=".8*"/>
+                        </Grid.RowDefinitions>
                         <Grid.ColumnDefinitions>
                             <ColumnDefinition Width="1*"/>
                             <ColumnDefinition Width="1*"/>
                         </Grid.ColumnDefinitions>
 
-                        <Grid Grid.Column="0" >
-                            <Label Content="Space" x:Name="lblSpace2" HorizontalAlignment="Right" VerticalAlignment="Center" Padding="5 8 5 9"/>
+                        <Grid Grid.Column="0" Grid.Row="1" Background="Orange">
+                            <Label Content="Space" x:Name="lblSpace2" HorizontalAlignment="Right" VerticalAlignment="Center" Padding="5 8 5 9" FontWeight="Bold"/>
                         </Grid>
-                        <Grid Grid.Column="1" >
+                        <Grid Grid.Column="1" Grid.Row="1" Background="Orange">
                             <TextBox x:Name="txtSpace2" TextChanged="txtSpace2_TextChanged" Height="20" Margin="2 2 2 2" VerticalAlignment="Center" HorizontalAlignment="Stretch"/>
                         </Grid>
                     </Grid>
@@ -482,28 +486,28 @@
 
                         <Grid Grid.Column="0">
                             <Grid.RowDefinitions>
-                                <RowDefinition Height="1.5*"/>
+                                <RowDefinition Height="2*"/>
                                 <RowDefinition Height="1*"/>
-                                <RowDefinition Height="1*"/>
+                                <RowDefinition Height=".8*"/>
                             </Grid.RowDefinitions>
-                            <Grid Grid.Row="0" Background="Lime">
-                                <Label Content="Services" HorizontalAlignment="Right" VerticalAlignment="Center"/>
+                            <Grid Grid.Row="0" Background="#b8ff95 ">
+                                <Label Content="Services" HorizontalAlignment="Right" VerticalAlignment="Center" FontWeight="Bold"/>
                             </Grid>
                             <Grid Grid.Row="1" Background="Orange">
-                                <Label Content="Spacer" x:Name="lblSpacer2" HorizontalAlignment="Right" VerticalAlignment="Center"/>
+                                <Label Content="Spacer" x:Name="lblSpacer2" HorizontalAlignment="Right" VerticalAlignment="Center" FontWeight="Bold"/>
                             </Grid>
                             <Grid Grid.Row="2" Background="LightGray">
-                                <Label Content="Seal" x:Name="lblSeal2" HorizontalAlignment="Right" VerticalAlignment="Center"/>
+                                <Label Content="Seal" x:Name="lblSeal2" HorizontalAlignment="Right" VerticalAlignment="Center" FontWeight="Bold"/>
                             </Grid>
                         </Grid>
 
                         <Grid Grid.Column="1">
                             <Grid.RowDefinitions>
-                                <RowDefinition Height="1.5*"/>
+                                <RowDefinition Height="2*"/>
                                 <RowDefinition Height="1*"/>
-                                <RowDefinition Height="1*"/>
+                                <RowDefinition Height=".8*"/>
                             </Grid.RowDefinitions>
-                            <Grid Grid.Row="0" Grid.Column="1" Background="LimeGreen">
+                            <Grid Grid.Row="0" Grid.Column="1" Background="#d6fdc3 ">
                                 <ScrollViewer VerticalScrollBarVisibility="Auto" HorizontalScrollBarVisibility="Auto">
                                     <TextBlock Padding="8 0 0 0" x:Name="txtBlockServices2"/>
                                 </ScrollViewer>
@@ -765,16 +769,21 @@
                         <ColumnDefinition Width="3.5*"/>
                     </Grid.ColumnDefinitions>
 
-                    <Grid Grid.Row="1" Grid.Column="0" Margin="0 16 0 0"  Background="Orange" VerticalAlignment="Center">
+                    <Grid Grid.Row="1" Grid.Column="0" Margin="0 0 0 0" VerticalAlignment="Stretch">
+                        <Grid.RowDefinitions>
+                            <RowDefinition Height="2*"/>
+                            <RowDefinition Height="1*"/>
+                            <RowDefinition Height=".8*"/>
+                        </Grid.RowDefinitions>
                         <Grid.ColumnDefinitions>
                             <ColumnDefinition Width="1*"/>
                             <ColumnDefinition Width="1*"/>
                         </Grid.ColumnDefinitions>
 
-                        <Grid Grid.Column="0" >
-                            <Label Content="Space" x:Name="lblSpace3" HorizontalAlignment="Right" VerticalAlignment="Center" Padding="5 8 5 9"/>
+                        <Grid Grid.Column="0" Grid.Row="1" Background="Orange" >
+                            <Label Content="Space" x:Name="lblSpace3" HorizontalAlignment="Right" VerticalAlignment="Center" Padding="5 8 5 9" FontWeight="Bold"/>
                         </Grid>
-                        <Grid Grid.Column="1" >
+                        <Grid Grid.Column="1" Grid.Row="1" Background="Orange" >
                             <TextBox x:Name="txtSpace3" TextChanged="txtSpace3_TextChanged" Height="20" Margin="2 2 2 2" VerticalAlignment="Center" HorizontalAlignment="Stretch"/>
                         </Grid>
                     </Grid>
@@ -787,28 +796,28 @@
 
                         <Grid Grid.Column="0" >
                             <Grid.RowDefinitions>
-                                <RowDefinition Height="1.5*"/>
+                                <RowDefinition Height="2*"/>
                                 <RowDefinition Height="1*"/>
-                                <RowDefinition Height="1*"/>
+                                <RowDefinition Height=".8*"/>
                             </Grid.RowDefinitions>
-                            <Grid Grid.Row="0" Background="Lime">
-                                <Label Content="Services" HorizontalAlignment="Right" VerticalAlignment="Center"/>
+                            <Grid Grid.Row="0" Background="#b8ff95 ">
+                                <Label Content="Services" HorizontalAlignment="Right" VerticalAlignment="Center" FontWeight="Bold"/>
                             </Grid>
                             <Grid Grid.Row="1" Background="Orange">
-                                <Label Content="Spacer" x:Name="lblSpacer3" HorizontalAlignment="Right" VerticalAlignment="Center"/>
+                                <Label Content="Spacer" x:Name="lblSpacer3" HorizontalAlignment="Right" VerticalAlignment="Center" FontWeight="Bold"/>
                             </Grid>
                             <Grid Grid.Row="2" Background="LightGray">
-                                <Label Content="Seal" x:Name="lblSeal3" HorizontalAlignment="Right" VerticalAlignment="Center"/>
+                                <Label Content="Seal" x:Name="lblSeal3" HorizontalAlignment="Right" VerticalAlignment="Top" FontWeight="Bold"/>
                             </Grid>
                         </Grid>
 
                         <Grid Grid.Column="1">
                             <Grid.RowDefinitions>
-                                <RowDefinition Height="1.5*"/>
+                                <RowDefinition Height="2*"/>
                                 <RowDefinition Height="1*"/>
-                                <RowDefinition Height="1*"/>
+                                <RowDefinition Height=".8*"/>
                             </Grid.RowDefinitions>
-                            <Grid Grid.Row="0" Grid.Column="1" Background="LimeGreen" >
+                            <Grid Grid.Row="0" Grid.Column="1" Background="#d6fdc3 " >
                                 <ScrollViewer VerticalScrollBarVisibility="Auto" HorizontalScrollBarVisibility="Auto">
                                     <TextBlock Padding="8 0 0 0" x:Name="txtBlockServices3"/>
                                 </ScrollViewer>
@@ -1090,8 +1099,8 @@
                                 <RowDefinition Height="1*"/>
                                 <RowDefinition Height="1*"/>
                             </Grid.RowDefinitions>
-                            <Grid Grid.Row="0" Background="Lime">
-                                <Label Content="Services" HorizontalAlignment="Right" VerticalAlignment="Center"/>
+                            <Grid Grid.Row="0" Background="#b8ff95 ">
+                                <Label Content="Services" HorizontalAlignment="Right" VerticalAlignment="Center" FontWeight="Bold"/>
                             </Grid>
                         </Grid>
 
@@ -1101,7 +1110,7 @@
                                 <RowDefinition Height="1*"/>
                                 <RowDefinition Height="1*"/>
                             </Grid.RowDefinitions>
-                            <Grid Grid.Row="0" Grid.Column="1" Background="LimeGreen">
+                            <Grid Grid.Row="0" Grid.Column="1" Background="#d6fdc3 ">
                                 <ScrollViewer VerticalScrollBarVisibility="Auto" HorizontalScrollBarVisibility="Auto">
                                     <TextBlock Padding="8 0 0 0" x:Name="txtBlockServices4"/>
                                 </ScrollViewer>

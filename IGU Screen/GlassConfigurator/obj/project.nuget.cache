@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "BdgevL8jGGM=",
+  "dgSpecHash": "VxmNv/UIBlk=",
   "success": true,
-  "projectFilePath": "D:\\SPIL\\Kristal\\IGU Screen\\GlassConfigurator\\SPIL.IGUConfigurator.csproj",
+  "projectFilePath": "D:\\SPIL\\Repositories\\IGU_Screen\\IGU Screen\\GlassConfigurator\\SPIL.IGUConfigurator.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\SPIL Labs\\.nuget\\packages\\dapper\\2.1.66\\dapper.2.1.66.nupkg.sha512",
     "C:\\Users\\SPIL Labs\\.nuget\\packages\\runtime.native.system.data.sqlclient.sni\\4.4.0\\runtime.native.system.data.sqlclient.sni.4.4.0.nupkg.sha512",

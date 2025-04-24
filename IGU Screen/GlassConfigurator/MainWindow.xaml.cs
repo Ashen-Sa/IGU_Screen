@@ -1084,10 +1084,10 @@ namespace SPIL.IGUConfigurator
                     stepValues[2] = formatValue(txtBottomStep1.Text);
                     stepValues[3] = formatValue(txtLeftStep1.Text);
 
-                    edgeServices[0] = formatValue((cmbTopEdgeService1.SelectedItem as ComboBoxItem)?.Content.ToString() ?? "None");
-                    edgeServices[1] = formatValue((cmbRightEdgeService1.SelectedItem as ComboBoxItem)?.Content.ToString() ?? "None");
-                    edgeServices[2] = formatValue((cmbBottomEdgeService1.SelectedItem as ComboBoxItem)?.Content.ToString() ?? "None");
-                    edgeServices[3] = formatValue((cmbLeftEdgeService1.SelectedItem as ComboBoxItem)?.Content.ToString() ?? "None");
+                    edgeServices[0] = formatValue(cmbTopEdgeService1.SelectedItem?.ToString() ?? "None");
+                    edgeServices[1] = formatValue(cmbRightEdgeService1.SelectedItem?.ToString() ?? "None");
+                    edgeServices[2] = formatValue(cmbBottomEdgeService1.SelectedItem?.ToString() ?? "None");
+                    edgeServices[3] = formatValue(cmbLeftEdgeService1.SelectedItem?.ToString() ?? "None");
 
                     summaryTextBlock = txtBlockServices1;
                     break;
@@ -1107,10 +1107,10 @@ namespace SPIL.IGUConfigurator
                     stepValues[2] = formatValue(txtBottomStep2.Text);
                     stepValues[3] = formatValue(txtLeftStep2.Text);
 
-                    edgeServices[0] = formatValue((cmbTopEdgeService2.SelectedItem as ComboBoxItem)?.Content.ToString() ?? "None");
-                    edgeServices[1] = formatValue((cmbRightEdgeService2.SelectedItem as ComboBoxItem)?.Content.ToString() ?? "None");
-                    edgeServices[2] = formatValue((cmbBottomEdgeService2.SelectedItem as ComboBoxItem)?.Content.ToString() ?? "None");
-                    edgeServices[3] = formatValue((cmbLeftEdgeService2.SelectedItem as ComboBoxItem)?.Content.ToString() ?? "None");
+                    edgeServices[0] = formatValue(cmbTopEdgeService2.SelectedItem?.ToString() ?? "None");
+                    edgeServices[1] = formatValue(cmbRightEdgeService2.SelectedItem?.ToString() ?? "None");
+                    edgeServices[2] = formatValue(cmbBottomEdgeService2.SelectedItem?.ToString() ?? "None");
+                    edgeServices[3] = formatValue(cmbLeftEdgeService2.SelectedItem?.ToString() ?? "None");
 
                     summaryTextBlock = txtBlockServices2;
                     break;
@@ -1130,10 +1130,10 @@ namespace SPIL.IGUConfigurator
                     stepValues[2] = formatValue(txtBottomStep3.Text);
                     stepValues[3] = formatValue(txtLeftStep3.Text);
 
-                    edgeServices[0] = formatValue((cmbTopEdgeService3.SelectedItem as ComboBoxItem)?.Content.ToString() ?? "None");
-                    edgeServices[1] = formatValue((cmbRightEdgeService3.SelectedItem as ComboBoxItem)?.Content.ToString() ?? "None");
-                    edgeServices[2] = formatValue((cmbBottomEdgeService3.SelectedItem as ComboBoxItem)?.Content.ToString() ?? "None");
-                    edgeServices[3] = formatValue((cmbLeftEdgeService3.SelectedItem as ComboBoxItem)?.Content.ToString() ?? "None");
+                    edgeServices[0] = formatValue(cmbTopEdgeService3.SelectedItem?.ToString() ?? "None");
+                    edgeServices[1] = formatValue(cmbRightEdgeService3.SelectedItem?.ToString() ?? "None");
+                    edgeServices[2] = formatValue(cmbBottomEdgeService3.SelectedItem?.ToString() ?? "None");
+                    edgeServices[3] = formatValue(cmbLeftEdgeService3.SelectedItem?.ToString() ?? "None");
 
                     summaryTextBlock = txtBlockServices3;
                     break;
@@ -1153,10 +1153,10 @@ namespace SPIL.IGUConfigurator
                     stepValues[2] = formatValue(txtBottomStep4.Text);
                     stepValues[3] = formatValue(txtLeftStep4.Text);
 
-                    edgeServices[0] = formatValue((cmbTopEdgeService4.SelectedItem as ComboBoxItem)?.Content.ToString() ?? "None");
-                    edgeServices[1] = formatValue((cmbRightEdgeService4.SelectedItem as ComboBoxItem)?.Content.ToString() ?? "None");
-                    edgeServices[2] = formatValue((cmbBottomEdgeService4.SelectedItem as ComboBoxItem)?.Content.ToString() ?? "None");
-                    edgeServices[3] = formatValue((cmbLeftEdgeService4.SelectedItem as ComboBoxItem)?.Content.ToString() ?? "None");
+                    edgeServices[0] = formatValue(cmbTopEdgeService4.SelectedItem?.ToString() ?? "None");
+                    edgeServices[1] = formatValue(cmbRightEdgeService4.SelectedItem?.ToString() ?? "None");
+                    edgeServices[2] = formatValue(cmbBottomEdgeService4.SelectedItem?.ToString() ?? "None");
+                    edgeServices[3] = formatValue(cmbLeftEdgeService4.SelectedItem?.ToString() ?? "None");
 
                     summaryTextBlock = txtBlockServices4;
                     break;
