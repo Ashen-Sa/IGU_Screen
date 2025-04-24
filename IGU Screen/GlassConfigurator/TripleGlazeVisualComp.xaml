@@ -1,0 +1,147 @@
+﻿<UserControl x:Class="SPIL.IGUConfigurator.TripleGlazeVisualComp"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:GlassConfigurator"
+             mc:Ignorable="d" 
+             Height="400" Width="230" d:DesignHeight="500" d:DesignWidth="300">
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width=".5*"/>
+            <ColumnDefinition Width="1.3*"/>
+            <ColumnDefinition Width="2*"/>
+            <ColumnDefinition Width="1.3*"/>
+            <ColumnDefinition Width="2*"/>
+            <ColumnDefinition Width="1.3*"/>
+            <ColumnDefinition Width=".5*"/>
+        </Grid.ColumnDefinitions>
+
+
+        <Grid Grid.Column="0">
+            <Image x:Name="imgSurface1" 
+                           Grid.Column="0" 
+                           Stretch="Fill" 
+                           VerticalAlignment="Stretch"
+                           HorizontalAlignment="Stretch"
+                           Margin="0"/>
+        </Grid>
+
+        <Grid Grid.Column="1" Background="LightSkyBlue">
+
+        </Grid>
+
+        <Grid Grid.Column="2">
+            <Grid.RowDefinitions>
+                <RowDefinition Height="9*"/>
+                <RowDefinition Height="1*"/>
+            </Grid.RowDefinitions>
+
+            <Grid Grid.Row="0">
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="*"/>
+                    <ColumnDefinition Width="5*"/>
+                    <ColumnDefinition Width="*"/>
+                </Grid.ColumnDefinitions>
+
+                <Grid Grid.Column="0">
+
+                    <Image x:Name="imgSurface2" 
+                           Grid.Column="0" 
+                           Stretch="Fill" 
+                           VerticalAlignment="Stretch"
+                           HorizontalAlignment="Stretch"
+                           Margin="0"/>
+
+                </Grid>
+
+                <Grid Grid.Column="2">
+
+                    <Image x:Name="imgSurface3" 
+                           Grid.Column="0" 
+                           Stretch="Fill" 
+                           VerticalAlignment="Stretch"
+                           HorizontalAlignment="Stretch"
+                           Margin="0"/>
+
+                </Grid>
+
+            </Grid>
+
+            <Grid Grid.Row="1" Background="Gray">
+                <Image x:Name="imgBase1" 
+                               Grid.Column="0" 
+                               Stretch="Fill" 
+                               VerticalAlignment="Stretch"
+                               HorizontalAlignment="Stretch"
+                               Margin="0"/>
+            </Grid>
+        </Grid>
+
+        <Grid Grid.Column="3" Background="LightSkyBlue">
+
+        </Grid>
+
+        <Grid Grid.Column="4">
+            <Grid.RowDefinitions>
+                <RowDefinition Height="9*"/>
+                <RowDefinition Height="1*"/>
+            </Grid.RowDefinitions>
+
+            <Grid Grid.Row="0">
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="*"/>
+                    <ColumnDefinition Width="5*"/>
+                    <ColumnDefinition Width="*"/>
+                </Grid.ColumnDefinitions>
+
+                <Grid Grid.Column="0">
+
+                    <Image x:Name="imgSurface4" 
+                           Grid.Column="0" 
+                           Stretch="Fill" 
+                           VerticalAlignment="Stretch"
+                           HorizontalAlignment="Stretch"
+                           Margin="0"/>
+
+                </Grid>
+
+                <Grid Grid.Column="2">
+
+                    <Image x:Name="imgSurface5" 
+                           Grid.Column="0" 
+                           Stretch="Fill" 
+                           VerticalAlignment="Stretch"
+                           HorizontalAlignment="Stretch"
+                           Margin="0"/>
+
+                </Grid>
+
+            </Grid>
+
+            <Grid Grid.Row="1" Background="Gray">
+                <Image x:Name="imgBase2" 
+                               Grid.Column="0" 
+                               Stretch="Fill" 
+                               VerticalAlignment="Stretch"
+                               HorizontalAlignment="Stretch"
+                               Margin="0"/>
+            </Grid>
+        </Grid>
+
+        <Grid Grid.Column="5" Background="LightSkyBlue">
+
+        </Grid>
+
+        <Grid Grid.Column="6">
+            <Image x:Name="imgSurface6" 
+                           Grid.Column="0" 
+                           Stretch="Fill" 
+                           VerticalAlignment="Stretch"
+                           HorizontalAlignment="Stretch"
+                           Margin="0"/>
+        </Grid>
+
+
+    </Grid>
+</UserControl>

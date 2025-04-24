@@ -1,0 +1,45 @@
+D:\1Side-Projects\Visual Studio\Visual Basic\Kalana\GlassConfigurator\GlassConfigurator\bin\Debug\net8.0-windows\GlassConfigurator.exe
+D:\1Side-Projects\Visual Studio\Visual Basic\Kalana\GlassConfigurator\GlassConfigurator\bin\Debug\net8.0-windows\GlassConfigurator.deps.json
+D:\1Side-Projects\Visual Studio\Visual Basic\Kalana\GlassConfigurator\GlassConfigurator\bin\Debug\net8.0-windows\GlassConfigurator.runtimeconfig.json
+D:\1Side-Projects\Visual Studio\Visual Basic\Kalana\GlassConfigurator\GlassConfigurator\bin\Debug\net8.0-windows\GlassConfigurator.dll
+D:\1Side-Projects\Visual Studio\Visual Basic\Kalana\GlassConfigurator\GlassConfigurator\bin\Debug\net8.0-windows\GlassConfigurator.pdb
+D:\1Side-Projects\Visual Studio\Visual Basic\Kalana\GlassConfigurator\GlassConfigurator\obj\Debug\net8.0-windows\MainWindow.baml
+D:\1Side-Projects\Visual Studio\Visual Basic\Kalana\GlassConfigurator\GlassConfigurator\obj\Debug\net8.0-windows\MainWindow.g.cs
+D:\1Side-Projects\Visual Studio\Visual Basic\Kalana\GlassConfigurator\GlassConfigurator\obj\Debug\net8.0-windows\App.g.cs
+D:\1Side-Projects\Visual Studio\Visual Basic\Kalana\GlassConfigurator\GlassConfigurator\obj\Debug\net8.0-windows\GlassConfigurator_MarkupCompile.cache
+D:\1Side-Projects\Visual Studio\Visual Basic\Kalana\GlassConfigurator\GlassConfigurator\obj\Debug\net8.0-windows\GlassConfigurator.g.resources
+D:\1Side-Projects\Visual Studio\Visual Basic\Kalana\GlassConfigurator\GlassConfigurator\obj\Debug\net8.0-windows\GlassConfigurator.GeneratedMSBuildEditorConfig.editorconfig
+D:\1Side-Projects\Visual Studio\Visual Basic\Kalana\GlassConfigurator\GlassConfigurator\obj\Debug\net8.0-windows\GlassConfigurator.AssemblyInfoInputs.cache
+D:\1Side-Projects\Visual Studio\Visual Basic\Kalana\GlassConfigurator\GlassConfigurator\obj\Debug\net8.0-windows\GlassConfigurator.AssemblyInfo.cs
+D:\1Side-Projects\Visual Studio\Visual Basic\Kalana\GlassConfigurator\GlassConfigurator\obj\Debug\net8.0-windows\GlassConfigurator.csproj.CoreCompileInputs.cache
+D:\1Side-Projects\Visual Studio\Visual Basic\Kalana\GlassConfigurator\GlassConfigurator\obj\Debug\net8.0-windows\GlassConfigurator.dll
+D:\1Side-Projects\Visual Studio\Visual Basic\Kalana\GlassConfigurator\GlassConfigurator\obj\Debug\net8.0-windows\refint\GlassConfigurator.dll
+D:\1Side-Projects\Visual Studio\Visual Basic\Kalana\GlassConfigurator\GlassConfigurator\obj\Debug\net8.0-windows\GlassConfigurator.pdb
+D:\1Side-Projects\Visual Studio\Visual Basic\Kalana\GlassConfigurator\GlassConfigurator\obj\Debug\net8.0-windows\GlassConfigurator.genruntimeconfig.cache
+D:\1Side-Projects\Visual Studio\Visual Basic\Kalana\GlassConfigurator\GlassConfigurator\obj\Debug\net8.0-windows\ref\GlassConfigurator.dll
+D:\SPIL\Kristal\IGU Screen\GlassConfigurator\obj\Debug\net8.0-windows\App.g.cs
+D:\SPIL\Kristal\IGU Screen\GlassConfigurator\obj\Debug\net8.0-windows\GlassConfigurator_MarkupCompile.cache
+D:\SPIL\Kristal\IGU Screen\GlassConfigurator\obj\Debug\net8.0-windows\GlassConfigurator.dll
+D:\SPIL\Kristal\IGU Screen\GlassConfigurator\obj\Debug\net8.0-windows\refint\GlassConfigurator.dll
+D:\SPIL\Kristal\IGU Screen\GlassConfigurator\obj\Debug\net8.0-windows\GlassConfigurator.pdb
+D:\SPIL\Kristal\IGU Screen\GlassConfigurator\bin\Debug\net8.0-windows\GlassConfigurator.exe
+D:\SPIL\Kristal\IGU Screen\GlassConfigurator\bin\Debug\net8.0-windows\GlassConfigurator.deps.json
+D:\SPIL\Kristal\IGU Screen\GlassConfigurator\bin\Debug\net8.0-windows\GlassConfigurator.runtimeconfig.json
+D:\SPIL\Kristal\IGU Screen\GlassConfigurator\bin\Debug\net8.0-windows\GlassConfigurator.dll
+D:\SPIL\Kristal\IGU Screen\GlassConfigurator\bin\Debug\net8.0-windows\GlassConfigurator.pdb
+D:\SPIL\Kristal\IGU Screen\GlassConfigurator\obj\Debug\net8.0-windows\MainWindow.baml
+D:\SPIL\Kristal\IGU Screen\GlassConfigurator\obj\Debug\net8.0-windows\MainWindow.g.cs
+D:\SPIL\Kristal\IGU Screen\GlassConfigurator\obj\Debug\net8.0-windows\GlassConfigurator.g.resources
+D:\SPIL\Kristal\IGU Screen\GlassConfigurator\obj\Debug\net8.0-windows\GlassConfigurator.GeneratedMSBuildEditorConfig.editorconfig
+D:\SPIL\Kristal\IGU Screen\GlassConfigurator\obj\Debug\net8.0-windows\GlassConfigurator.AssemblyInfoInputs.cache
+D:\SPIL\Kristal\IGU Screen\GlassConfigurator\obj\Debug\net8.0-windows\GlassConfigurator.AssemblyInfo.cs
+D:\SPIL\Kristal\IGU Screen\GlassConfigurator\obj\Debug\net8.0-windows\GlassConfigurator.csproj.CoreCompileInputs.cache
+D:\SPIL\Kristal\IGU Screen\GlassConfigurator\obj\Debug\net8.0-windows\GlassConfigurator.genruntimeconfig.cache
+D:\SPIL\Kristal\IGU Screen\GlassConfigurator\obj\Debug\net8.0-windows\ref\GlassConfigurator.dll
+D:\SPIL\Kristal\IGU Screen\GlassConfigurator\obj\Debug\net8.0-windows\DoubleGlazeVisualComp.g.cs
+D:\SPIL\Kristal\IGU Screen\GlassConfigurator\obj\Debug\net8.0-windows\TripleGlazeVisualComp.g.cs
+D:\SPIL\Kristal\IGU Screen\GlassConfigurator\obj\Debug\net8.0-windows\GlassConfigurator_MarkupCompile.lref
+D:\SPIL\Kristal\IGU Screen\GlassConfigurator\obj\Debug\net8.0-windows\DoubleGlazeVisualComp.baml
+D:\SPIL\Kristal\IGU Screen\GlassConfigurator\obj\Debug\net8.0-windows\TripleGlazeVisualComp.baml
+D:\SPIL\Kristal\IGU Screen\GlassConfigurator\obj\Debug\net8.0-windows\QuadrupleGlazeVisualComp.g.cs
+D:\SPIL\Kristal\IGU Screen\GlassConfigurator\obj\Debug\net8.0-windows\QuadrupleGlazeVisualComp.baml

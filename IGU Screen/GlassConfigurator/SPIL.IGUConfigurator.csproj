@@ -1,0 +1,75 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net8.0-windows</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <UseWPF>true</UseWPF>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="Images\AllEdgesImg.png" />
+    <None Remove="Images\Base.png" />
+    <None Remove="Images\BottomEdgeImg.png" />
+    <None Remove="Images\Coating.png" />
+    <None Remove="Images\Double Glaze IGU.png" />
+    <None Remove="Images\DoubleGlazeIGU.png" />
+    <None Remove="Images\Inner.png" />
+    <None Remove="Images\LeftEdgeImg.png" />
+    <None Remove="Images\Mirror.png" />
+    <None Remove="Images\Outer.png" />
+    <None Remove="Images\Patterned Left.png" />
+    <None Remove="Images\Patterned Right.png" />
+    <None Remove="Images\Patterned.png" />
+    <None Remove="Images\PatternedLeft.png" />
+    <None Remove="Images\PatternedRight.png" />
+    <None Remove="Images\RightEdgeImg.png" />
+    <None Remove="Images\SandBlast.png" />
+    <None Remove="Images\SunnySide.png" />
+    <None Remove="Images\TopEdgeImg.png" />
+    <None Remove="Images\TripleGlazeIGU.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Dapper" Version="2.1.66" />
+    <PackageReference Include="System.Configuration.ConfigurationManager" Version="9.0.4" />
+    <PackageReference Include="System.Data.SqlClient" Version="4.9.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="Images\AllEdgesImg.png" />
+    <Resource Include="Images\Base.png" />
+    <Resource Include="Images\BottomEdgeImg.png" />
+    <Resource Include="Images\Coating.png" />
+    <Resource Include="Images\DoubleGlazeIGU.png" />
+    <Resource Include="Images\Inner.png" />
+    <Resource Include="Images\LeftEdgeImg.png" />
+    <Resource Include="Images\Mirror.png" />
+    <Resource Include="Images\Outer.png" />
+    <Resource Include="Images\Patterned.png" />
+    <Resource Include="Images\PatternedLeft.png" />
+    <Resource Include="Images\PatternedRight.png" />
+    <Resource Include="Images\RightEdgeImg.png" />
+    <Resource Include="Images\SandBlast.png" />
+    <Resource Include="Images\SunnySide.png" />
+    <Resource Include="Images\TopEdgeImg.png" />
+    <Resource Include="Images\TripleGlazeIGU.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Compile Update="Images\Resource1.Designer.cs">
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resource1.resx</DependentUpon>
+    </Compile>
+  </ItemGroup>
+
+  <ItemGroup>
+    <EmbeddedResource Update="Images\Resource1.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resource1.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+  </ItemGroup>
+
+</Project>
