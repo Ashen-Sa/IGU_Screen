@@ -3,6 +3,22 @@
   "WorkspaceRootPath": "D:\\SPIL\\Repositories\\IGU_Screen\\IGU Screen\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{492043E3-8E1D-4164-BBED-01F97F2ADD43}|GlassConfigurator\\SPIL.IGUConfigurator.csproj|d:\\spil\\repositories\\igu_screen\\igu screen\\glassconfigurator\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{492043E3-8E1D-4164-BBED-01F97F2ADD43}|GlassConfigurator\\SPIL.IGUConfigurator.csproj|solutionrelative:glassconfigurator\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{492043E3-8E1D-4164-BBED-01F97F2ADD43}|GlassConfigurator\\SPIL.IGUConfigurator.csproj|d:\\spil\\repositories\\igu_screen\\igu screen\\glassconfigurator\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{492043E3-8E1D-4164-BBED-01F97F2ADD43}|GlassConfigurator\\SPIL.IGUConfigurator.csproj|solutionrelative:glassconfigurator\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{492043E3-8E1D-4164-BBED-01F97F2ADD43}|GlassConfigurator\\SPIL.IGUConfigurator.csproj|d:\\spil\\repositories\\igu_screen\\igu screen\\glassconfigurator\\quadrupleglazevisualcomp.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{492043E3-8E1D-4164-BBED-01F97F2ADD43}|GlassConfigurator\\SPIL.IGUConfigurator.csproj|solutionrelative:glassconfigurator\\quadrupleglazevisualcomp.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{492043E3-8E1D-4164-BBED-01F97F2ADD43}|GlassConfigurator\\SPIL.IGUConfigurator.csproj|d:\\spil\\repositories\\igu_screen\\igu screen\\glassconfigurator\\tripleglazevisualcomp.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{492043E3-8E1D-4164-BBED-01F97F2ADD43}|GlassConfigurator\\SPIL.IGUConfigurator.csproj|solutionrelative:glassconfigurator\\tripleglazevisualcomp.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{492043E3-8E1D-4164-BBED-01F97F2ADD43}|GlassConfigurator\\SPIL.IGUConfigurator.csproj|d:\\spil\\repositories\\igu_screen\\igu screen\\glassconfigurator\\quadrupleglazevisualcomp.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
       "RelativeMoniker": "D:0:0:{492043E3-8E1D-4164-BBED-01F97F2ADD43}|GlassConfigurator\\SPIL.IGUConfigurator.csproj|solutionrelative:glassconfigurator\\quadrupleglazevisualcomp.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
@@ -19,20 +35,19 @@
       "RelativeMoniker": "D:0:0:{492043E3-8E1D-4164-BBED-01F97F2ADD43}|GlassConfigurator\\SPIL.IGUConfigurator.csproj|solutionrelative:glassconfigurator\\doubleglazevisualcomp.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{492043E3-8E1D-4164-BBED-01F97F2ADD43}|GlassConfigurator\\SPIL.IGUConfigurator.csproj|d:\\spil\\repositories\\igu_screen\\igu screen\\glassconfigurator\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{492043E3-8E1D-4164-BBED-01F97F2ADD43}|GlassConfigurator\\SPIL.IGUConfigurator.csproj|solutionrelative:glassconfigurator\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+      "AbsoluteMoniker": "D:0:0:{492043E3-8E1D-4164-BBED-01F97F2ADD43}|GlassConfigurator\\SPIL.IGUConfigurator.csproj|d:\\spil\\repositories\\igu_screen\\igu screen\\glassconfigurator\\images\\doublesidedarrow.png||{177559E0-D141-11D0-92DF-00A0C9138C45}",
+      "RelativeMoniker": "D:0:0:{492043E3-8E1D-4164-BBED-01F97F2ADD43}|GlassConfigurator\\SPIL.IGUConfigurator.csproj|solutionrelative:glassconfigurator\\images\\doublesidedarrow.png||{177559E0-D141-11D0-92DF-00A0C9138C45}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{492043E3-8E1D-4164-BBED-01F97F2ADD43}|GlassConfigurator\\SPIL.IGUConfigurator.csproj|d:\\spil\\repositories\\igu_screen\\igu screen\\glassconfigurator\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{492043E3-8E1D-4164-BBED-01F97F2ADD43}|GlassConfigurator\\SPIL.IGUConfigurator.csproj|solutionrelative:glassconfigurator\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\SPIL Labs\\AppData\\Local\\Temp\\.vsdbgsrc\\0a84cc53936b314ba955b54f50bf4796d8234943f3fd7b93873381b45d404026\\XamlReader.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{492043E3-8E1D-4164-BBED-01F97F2ADD43}|GlassConfigurator\\SPIL.IGUConfigurator.csproj|d:\\spil\\repositories\\igu_screen\\igu screen\\glassconfigurator\\assemblyinfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{492043E3-8E1D-4164-BBED-01F97F2ADD43}|GlassConfigurator\\SPIL.IGUConfigurator.csproj|solutionrelative:glassconfigurator\\assemblyinfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{492043E3-8E1D-4164-BBED-01F97F2ADD43}|GlassConfigurator\\SPIL.IGUConfigurator.csproj|d:\\spil\\repositories\\igu_screen\\igu screen\\glassconfigurator\\databaseservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{492043E3-8E1D-4164-BBED-01F97F2ADD43}|GlassConfigurator\\SPIL.IGUConfigurator.csproj|solutionrelative:glassconfigurator\\databaseservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{02EA681E-C7D8-13C7-8484-4AC65E1B71E8}|Solution Items{02EA681E-C7D8-13C7-8484-4AC65E1B71E8}|D:\\SPIL\\Repositories\\IGU_Screen\\IGU Screen\\.editorconfig||{68B46364-D378-42F2-9E72-37D86C5F4468}",
-      "RelativeMoniker": "D:0:0:{02EA681E-C7D8-13C7-8484-4AC65E1B71E8}|Solution Items{02EA681E-C7D8-13C7-8484-4AC65E1B71E8}|solutionrelative:.editorconfig||{68B46364-D378-42F2-9E72-37D86C5F4468}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{492043E3-8E1D-4164-BBED-01F97F2ADD43}|GlassConfigurator\\SPIL.IGUConfigurator.csproj|d:\\spil\\repositories\\igu_screen\\igu screen\\glassconfigurator\\app.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -51,20 +66,8 @@
       "RelativeMoniker": "D:0:0:{492043E3-8E1D-4164-BBED-01F97F2ADD43}|GlassConfigurator\\SPIL.IGUConfigurator.csproj|solutionrelative:glassconfigurator\\surfaceservices.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{492043E3-8E1D-4164-BBED-01F97F2ADD43}|GlassConfigurator\\SPIL.IGUConfigurator.csproj|d:\\spil\\repositories\\igu_screen\\igu screen\\glassconfigurator\\assemblyinfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{492043E3-8E1D-4164-BBED-01F97F2ADD43}|GlassConfigurator\\SPIL.IGUConfigurator.csproj|solutionrelative:glassconfigurator\\assemblyinfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{492043E3-8E1D-4164-BBED-01F97F2ADD43}|GlassConfigurator\\SPIL.IGUConfigurator.csproj|d:\\spil\\repositories\\igu_screen\\igu screen\\glassconfigurator\\app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
       "RelativeMoniker": "D:0:0:{492043E3-8E1D-4164-BBED-01F97F2ADD43}|GlassConfigurator\\SPIL.IGUConfigurator.csproj|solutionrelative:glassconfigurator\\app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{492043E3-8E1D-4164-BBED-01F97F2ADD43}|GlassConfigurator\\SPIL.IGUConfigurator.csproj|d:\\spil\\repositories\\igu_screen\\igu screen\\glassconfigurator\\tripleglazevisualcomp.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{492043E3-8E1D-4164-BBED-01F97F2ADD43}|GlassConfigurator\\SPIL.IGUConfigurator.csproj|solutionrelative:glassconfigurator\\tripleglazevisualcomp.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{492043E3-8E1D-4164-BBED-01F97F2ADD43}|GlassConfigurator\\SPIL.IGUConfigurator.csproj|d:\\spil\\repositories\\igu_screen\\igu screen\\glassconfigurator\\quadrupleglazevisualcomp.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{492043E3-8E1D-4164-BBED-01F97F2ADD43}|GlassConfigurator\\SPIL.IGUConfigurator.csproj|solutionrelative:glassconfigurator\\quadrupleglazevisualcomp.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -74,22 +77,34 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 13,
+          "SelectedChildIndex": 4,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": ".editorconfig",
-              "DocumentMoniker": "D:\\SPIL\\Repositories\\IGU_Screen\\IGU Screen\\.editorconfig",
-              "RelativeDocumentMoniker": ".editorconfig",
-              "ToolTip": "D:\\SPIL\\Repositories\\IGU_Screen\\IGU Screen\\.editorconfig",
-              "RelativeToolTip": ".editorconfig",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
-              "WhenOpened": "2025-04-24T03:44:59.234Z"
+              "DocumentIndex": 8,
+              "Title": "DoubleSidedArrow.png - PNG [200x44, 32 bit, PNG]",
+              "DocumentMoniker": "D:\\SPIL\\Repositories\\IGU_Screen\\IGU Screen\\GlassConfigurator\\Images\\DoubleSidedArrow.png",
+              "RelativeDocumentMoniker": "GlassConfigurator\\Images\\DoubleSidedArrow.png",
+              "ToolTip": "D:\\SPIL\\Repositories\\IGU_Screen\\IGU Screen\\GlassConfigurator\\Images\\DoubleSidedArrow.png - PNG [200x44, 32 bit, PNG]",
+              "RelativeToolTip": "GlassConfigurator\\Images\\DoubleSidedArrow.png - PNG [200x44, 32 bit, PNG]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001533|",
+              "WhenOpened": "2025-04-25T04:53:46.184Z",
+              "EditorCaption": " - PNG [200x44, 32 bit, PNG]"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 9,
+              "Title": "XamlReader.cs",
+              "DocumentMoniker": "C:\\Users\\SPIL Labs\\AppData\\Local\\Temp\\.vsdbgsrc\\0a84cc53936b314ba955b54f50bf4796d8234943f3fd7b93873381b45d404026\\XamlReader.cs",
+              "ToolTip": "C:\\Users\\SPIL Labs\\AppData\\Local\\Temp\\.vsdbgsrc\\0a84cc53936b314ba955b54f50bf4796d8234943f3fd7b93873381b45d404026\\XamlReader.cs [Read Only]",
+              "ViewState": "AgIAAJcBAAAAAAAAAAAswLUBAAACAAAAAQAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-25T04:11:05.034Z",
+              "EditorCaption": " [Read Only]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
               "Title": "AssemblyInfo.cs",
               "DocumentMoniker": "D:\\SPIL\\Repositories\\IGU_Screen\\IGU Screen\\GlassConfigurator\\AssemblyInfo.cs",
               "RelativeDocumentMoniker": "GlassConfigurator\\AssemblyInfo.cs",
@@ -97,11 +112,12 @@
               "RelativeToolTip": "GlassConfigurator\\AssemblyInfo.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-24T03:44:13.158Z"
+              "WhenOpened": "2025-04-24T03:44:13.158Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 1,
               "Title": "MainWindow.xaml",
               "DocumentMoniker": "D:\\SPIL\\Repositories\\IGU_Screen\\IGU Screen\\GlassConfigurator\\MainWindow.xaml",
               "RelativeDocumentMoniker": "GlassConfigurator\\MainWindow.xaml",
@@ -113,19 +129,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 0,
               "Title": "MainWindow.xaml.cs",
               "DocumentMoniker": "D:\\SPIL\\Repositories\\IGU_Screen\\IGU Screen\\GlassConfigurator\\MainWindow.xaml.cs",
               "RelativeDocumentMoniker": "GlassConfigurator\\MainWindow.xaml.cs",
-              "ToolTip": "D:\\SPIL\\Repositories\\IGU_Screen\\IGU Screen\\GlassConfigurator\\MainWindow.xaml.cs",
-              "RelativeToolTip": "GlassConfigurator\\MainWindow.xaml.cs",
-              "ViewState": "AgIAAGUEAAAAAAAAAAAQwIgEAAA5AAAAAAAAAA==",
+              "ToolTip": "D:\\SPIL\\Repositories\\IGU_Screen\\IGU Screen\\GlassConfigurator\\MainWindow.xaml.cs*",
+              "RelativeToolTip": "GlassConfigurator\\MainWindow.xaml.cs*",
+              "ViewState": "AgIAAB8AAAAAAAAAAAAswPsAAAA3AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-10T10:01:45.413Z"
+              "WhenOpened": "2025-04-10T10:01:45.413Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 16,
               "Title": "App.xaml",
               "DocumentMoniker": "D:\\SPIL\\Repositories\\IGU_Screen\\IGU Screen\\GlassConfigurator\\App.xaml",
               "RelativeDocumentMoniker": "GlassConfigurator\\App.xaml",
@@ -137,7 +154,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 13,
               "Title": "App.config",
               "DocumentMoniker": "D:\\SPIL\\Repositories\\IGU_Screen\\IGU Screen\\GlassConfigurator\\App.config",
               "RelativeDocumentMoniker": "GlassConfigurator\\App.config",
@@ -149,7 +166,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 12,
               "Title": "App.xaml.cs",
               "DocumentMoniker": "D:\\SPIL\\Repositories\\IGU_Screen\\IGU Screen\\GlassConfigurator\\App.xaml.cs",
               "RelativeDocumentMoniker": "GlassConfigurator\\App.xaml.cs",
@@ -161,7 +178,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 11,
               "Title": "DatabaseService.cs",
               "DocumentMoniker": "D:\\SPIL\\Repositories\\IGU_Screen\\IGU Screen\\GlassConfigurator\\DatabaseService.cs",
               "RelativeDocumentMoniker": "GlassConfigurator\\DatabaseService.cs",
@@ -173,19 +190,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
-              "Title": "QuadrupleGlazeVisualComp.xaml.cs",
-              "DocumentMoniker": "D:\\SPIL\\Repositories\\IGU_Screen\\IGU Screen\\GlassConfigurator\\QuadrupleGlazeVisualComp.xaml.cs",
-              "RelativeDocumentMoniker": "GlassConfigurator\\QuadrupleGlazeVisualComp.xaml.cs",
-              "ToolTip": "D:\\SPIL\\Repositories\\IGU_Screen\\IGU Screen\\GlassConfigurator\\QuadrupleGlazeVisualComp.xaml.cs",
-              "RelativeToolTip": "GlassConfigurator\\QuadrupleGlazeVisualComp.xaml.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-21T06:37:12.171Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 14,
               "Title": "SurfaceServices.xaml.cs",
               "DocumentMoniker": "D:\\SPIL\\Repositories\\IGU_Screen\\IGU Screen\\GlassConfigurator\\SurfaceServices.xaml.cs",
               "RelativeDocumentMoniker": "GlassConfigurator\\SurfaceServices.xaml.cs",
@@ -197,7 +202,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 15,
               "Title": "SurfaceServices.xaml",
               "DocumentMoniker": "D:\\SPIL\\Repositories\\IGU_Screen\\IGU Screen\\GlassConfigurator\\SurfaceServices.xaml",
               "RelativeDocumentMoniker": "GlassConfigurator\\SurfaceServices.xaml",
@@ -208,44 +213,45 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
-              "Title": "TripleGlazeVisualComp.xaml.cs",
-              "DocumentMoniker": "D:\\SPIL\\Repositories\\IGU_Screen\\IGU Screen\\GlassConfigurator\\TripleGlazeVisualComp.xaml.cs",
-              "RelativeDocumentMoniker": "GlassConfigurator\\TripleGlazeVisualComp.xaml.cs",
-              "ToolTip": "D:\\SPIL\\Repositories\\IGU_Screen\\IGU Screen\\GlassConfigurator\\TripleGlazeVisualComp.xaml.cs",
-              "RelativeToolTip": "GlassConfigurator\\TripleGlazeVisualComp.xaml.cs",
-              "ViewState": "AgIAAA0AAAAAAAAAAAAgwBcAAAAIAAAAAAAAAA==",
+              "DocumentIndex": 2,
+              "Title": "QuadrupleGlazeVisualComp.xaml.cs",
+              "DocumentMoniker": "D:\\SPIL\\Repositories\\IGU_Screen\\IGU Screen\\GlassConfigurator\\QuadrupleGlazeVisualComp.xaml.cs",
+              "RelativeDocumentMoniker": "GlassConfigurator\\QuadrupleGlazeVisualComp.xaml.cs",
+              "ToolTip": "D:\\SPIL\\Repositories\\IGU_Screen\\IGU Screen\\GlassConfigurator\\QuadrupleGlazeVisualComp.xaml.cs*",
+              "RelativeToolTip": "GlassConfigurator\\QuadrupleGlazeVisualComp.xaml.cs*",
+              "ViewState": "AgIAABwAAAAAAAAAAAAkwCcAAAAfAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-17T10:32:35.602Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "DoubleGlazeVisualComp.xaml.cs",
-              "DocumentMoniker": "D:\\SPIL\\Repositories\\IGU_Screen\\IGU Screen\\GlassConfigurator\\DoubleGlazeVisualComp.xaml.cs",
-              "RelativeDocumentMoniker": "GlassConfigurator\\DoubleGlazeVisualComp.xaml.cs",
-              "ToolTip": "D:\\SPIL\\Repositories\\IGU_Screen\\IGU Screen\\GlassConfigurator\\DoubleGlazeVisualComp.xaml.cs",
-              "RelativeToolTip": "GlassConfigurator\\DoubleGlazeVisualComp.xaml.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAAnAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-17T08:57:58.364Z",
+              "WhenOpened": "2025-04-21T06:37:12.171Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 4,
               "Title": "QuadrupleGlazeVisualComp.xaml",
               "DocumentMoniker": "D:\\SPIL\\Repositories\\IGU_Screen\\IGU Screen\\GlassConfigurator\\QuadrupleGlazeVisualComp.xaml",
               "RelativeDocumentMoniker": "GlassConfigurator\\QuadrupleGlazeVisualComp.xaml",
-              "ToolTip": "D:\\SPIL\\Repositories\\IGU_Screen\\IGU Screen\\GlassConfigurator\\QuadrupleGlazeVisualComp.xaml",
-              "RelativeToolTip": "GlassConfigurator\\QuadrupleGlazeVisualComp.xaml",
+              "ToolTip": "D:\\SPIL\\Repositories\\IGU_Screen\\IGU Screen\\GlassConfigurator\\QuadrupleGlazeVisualComp.xaml*",
+              "RelativeToolTip": "GlassConfigurator\\QuadrupleGlazeVisualComp.xaml*",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
               "WhenOpened": "2025-04-17T08:09:28.18Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
+              "Title": "TripleGlazeVisualComp.xaml.cs",
+              "DocumentMoniker": "D:\\SPIL\\Repositories\\IGU_Screen\\IGU Screen\\GlassConfigurator\\TripleGlazeVisualComp.xaml.cs",
+              "RelativeDocumentMoniker": "GlassConfigurator\\TripleGlazeVisualComp.xaml.cs",
+              "ToolTip": "D:\\SPIL\\Repositories\\IGU_Screen\\IGU Screen\\GlassConfigurator\\TripleGlazeVisualComp.xaml.cs",
+              "RelativeToolTip": "GlassConfigurator\\TripleGlazeVisualComp.xaml.cs",
+              "ViewState": "AgIAABAAAAAAAAAAAAAgwB0AAAA3AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-17T10:32:35.602Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
               "Title": "TripleGlazeVisualComp.xaml",
               "DocumentMoniker": "D:\\SPIL\\Repositories\\IGU_Screen\\IGU Screen\\GlassConfigurator\\TripleGlazeVisualComp.xaml",
               "RelativeDocumentMoniker": "GlassConfigurator\\TripleGlazeVisualComp.xaml",
@@ -257,7 +263,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 5,
               "Title": "DoubleGlazeVisualComp.xaml",
               "DocumentMoniker": "D:\\SPIL\\Repositories\\IGU_Screen\\IGU Screen\\GlassConfigurator\\DoubleGlazeVisualComp.xaml",
               "RelativeDocumentMoniker": "GlassConfigurator\\DoubleGlazeVisualComp.xaml",
@@ -265,6 +271,19 @@
               "RelativeToolTip": "GlassConfigurator\\DoubleGlazeVisualComp.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
               "WhenOpened": "2025-04-17T05:41:13.719Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "DoubleGlazeVisualComp.xaml.cs",
+              "DocumentMoniker": "D:\\SPIL\\Repositories\\IGU_Screen\\IGU Screen\\GlassConfigurator\\DoubleGlazeVisualComp.xaml.cs",
+              "RelativeDocumentMoniker": "GlassConfigurator\\DoubleGlazeVisualComp.xaml.cs",
+              "ToolTip": "D:\\SPIL\\Repositories\\IGU_Screen\\IGU Screen\\GlassConfigurator\\DoubleGlazeVisualComp.xaml.cs",
+              "RelativeToolTip": "GlassConfigurator\\DoubleGlazeVisualComp.xaml.cs",
+              "ViewState": "AgIAABIAAAAAAAAAAAAMwCwAAAA5AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-17T08:57:58.364Z",
               "EditorCaption": ""
             }
           ]

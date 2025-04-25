@@ -161,7 +161,7 @@
                         </Grid.ColumnDefinitions>
 
                         <Grid Grid.Column="0" Grid.Row="1" Background="Orange">
-                            <Label Content="Space" HorizontalAlignment="Right" VerticalAlignment="Center" Padding="5 8 5 9" FontWeight="Bold"/>
+                            <Label Content="Space" HorizontalAlignment="Right" VerticalAlignment="Center" FontWeight="Bold"/>
                         </Grid>
                         <Grid Grid.Column="1" Grid.Row="1" Background="Orange">
                             <TextBox x:Name="txtSpace1" TextChanged="txtSpace1_TextChanged" Height="20" Margin="2 2 2 2" VerticalAlignment="Center" HorizontalAlignment="Stretch"/>
@@ -471,7 +471,7 @@
                         </Grid.ColumnDefinitions>
 
                         <Grid Grid.Column="0" Grid.Row="1" Background="Orange">
-                            <Label Content="Space" x:Name="lblSpace2" HorizontalAlignment="Right" VerticalAlignment="Center" Padding="5 8 5 9" FontWeight="Bold"/>
+                            <Label Content="Space" x:Name="lblSpace2" HorizontalAlignment="Right" VerticalAlignment="Center" FontWeight="Bold"/>
                         </Grid>
                         <Grid Grid.Column="1" Grid.Row="1" Background="Orange">
                             <TextBox x:Name="txtSpace2" TextChanged="txtSpace2_TextChanged" Height="20" Margin="2 2 2 2" VerticalAlignment="Center" HorizontalAlignment="Stretch"/>
@@ -781,7 +781,7 @@
                         </Grid.ColumnDefinitions>
 
                         <Grid Grid.Column="0" Grid.Row="1" Background="Orange" >
-                            <Label Content="Space" x:Name="lblSpace3" HorizontalAlignment="Right" VerticalAlignment="Center" Padding="5 8 5 9" FontWeight="Bold"/>
+                            <Label Content="Space" x:Name="lblSpace3" HorizontalAlignment="Right" VerticalAlignment="Center" FontWeight="Bold"/>
                         </Grid>
                         <Grid Grid.Column="1" Grid.Row="1" Background="Orange" >
                             <TextBox x:Name="txtSpace3" TextChanged="txtSpace3_TextChanged" Height="20" Margin="2 2 2 2" VerticalAlignment="Center" HorizontalAlignment="Stretch"/>

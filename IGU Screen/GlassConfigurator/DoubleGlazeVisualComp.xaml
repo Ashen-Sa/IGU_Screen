@@ -8,9 +8,9 @@
              Height="400" Width="150" d:DesignHeight="500" d:DesignWidth="200">
     <Grid>
         <Grid.RowDefinitions>
-            <RowDefinition Height=".3*"/>
+            <RowDefinition Height=".5*"/>
             <RowDefinition Height="8*"/>
-            <RowDefinition Height=".3*"/>
+            <RowDefinition Height=".6*"/>
         </Grid.RowDefinitions>
         <Grid Grid.Row="0">
             <Grid.ColumnDefinitions>
@@ -22,6 +22,59 @@
                 <ColumnDefinition Width=".5*"/>
                 <ColumnDefinition Width=".5*"/>
             </Grid.ColumnDefinitions>
+
+
+            <Grid Grid.Column="2">                
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="1*"/>
+                        <RowDefinition Height="1*"/>
+                    </Grid.RowDefinitions>
+
+                    <Image x:Name="imgPanel1Thickness" 
+                       Grid.Row="1" 
+                       Stretch="Fill" 
+                       VerticalAlignment="Stretch"
+                       HorizontalAlignment="Stretch"
+                       Margin="0"/>
+                    <TextBlock x:Name="txtBlockPanel1ThicknessVisual" Grid.Row="0" FontSize="8" HorizontalAlignment="Center" VerticalAlignment="Stretch"/>
+                
+            </Grid>
+
+
+            <Grid Grid.Column="3">                
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="1*"/>
+                        <RowDefinition Height="1*"/>
+                    </Grid.RowDefinitions>
+
+                    <Image x:Name="imgSpace1Thickness" 
+                       Grid.Row="1" 
+                       Stretch="Fill" 
+                       VerticalAlignment="Stretch"
+                       HorizontalAlignment="Stretch"
+                       Margin="0"/>
+                    <TextBlock x:Name="txtBlockSpace1ThicknessVisual" Grid.Row="0" FontSize="8" HorizontalAlignment="Center" VerticalAlignment="Stretch"/>
+                
+            </Grid>
+
+
+            <Grid Grid.Column="4">                
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="1*"/>
+                        <RowDefinition Height="1*"/>
+                    </Grid.RowDefinitions>
+
+                    <Image x:Name="imgPanel2Thickness" 
+                       Grid.Row="1" 
+                       Stretch="Fill" 
+                       VerticalAlignment="Stretch"
+                       HorizontalAlignment="Stretch"
+                       Margin="0"/>
+                    <TextBlock x:Name="txtBlockPanel2ThicknessVisual" Grid.Row="0" FontSize="8" HorizontalAlignment="Center" VerticalAlignment="Stretch"/>
+                
+            </Grid>
+
+
         </Grid>
 
         <Grid Grid.Row="1">
@@ -35,7 +88,7 @@
             <ColumnDefinition Width=".5*"/>
         </Grid.ColumnDefinitions>
 
-        <Grid Grid.Column="0">
+        <Grid Grid.Column="1">
             <Image x:Name="imgSurface1" 
                Grid.Column="0" 
                Stretch="Fill" 
@@ -113,8 +166,26 @@
 
 
         <Grid Grid.Row="2">
-            
-            
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width=".5*"/>
+                <ColumnDefinition Width="5.6*"/>                
+                <ColumnDefinition Width=".5*"/>
+            </Grid.ColumnDefinitions>
+
+            <Grid Grid.Column="1">
+            <Grid.RowDefinitions>
+                <RowDefinition Height="1*"/>
+                <RowDefinition Height="1*"/>
+            </Grid.RowDefinitions>
+
+            <Image x:Name="imgOverallThickness" 
+               Grid.Row="0" 
+               Stretch="Fill" 
+               VerticalAlignment="Stretch"
+               HorizontalAlignment="Stretch"
+               Margin="0"/>
+            <TextBlock x:Name="txtBlockOverallThicknessVisual" Grid.Row="1" HorizontalAlignment="Center" VerticalAlignment="Stretch"/>
+            </Grid>
         </Grid>
         
         

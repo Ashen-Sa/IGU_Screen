@@ -21,6 +21,7 @@ namespace SPIL.IGUConfigurator
     public partial class TripleGlazeVisualComp : UserControl
     {
         private readonly BitmapImage BaseImage;
+        private readonly BitmapImage DoubleSidedArrow;
         public Image Surface1ServiceImg => imgSurface1;
         public Image Surface2ServiceImg => imgSurface2;
         public Image Surface3ServiceImg => imgSurface3;
@@ -28,12 +29,28 @@ namespace SPIL.IGUConfigurator
         public Image Surface5ServiceImg => imgSurface5;
         public Image Surface6ServiceImg => imgSurface6;
 
+        public TextBlock Panel1ThicknessText => txtBlockPanel1ThicknessVisual;
+        public TextBlock Space1ThicknessText => txtBlockSpace1ThicknessVisual;
+        public TextBlock Panel2ThicknessText => txtBlockPanel2ThicknessVisual;
+        public TextBlock Space2ThicknessText => txtBlockSpace2ThicknessVisual;
+        public TextBlock Panel3ThicknessText => txtBlockPanel3ThicknessVisual;
+        public TextBlock PanelOverallThicknessText => txtBlockOverallThicknessVisual;
+
         public TripleGlazeVisualComp()
         {
             InitializeComponent();
             BaseImage = new BitmapImage(new Uri("pack://application:,,,/Images/Base.png"));
+            DoubleSidedArrow = new BitmapImage(new Uri("pack://application:,,,/Images/DoubleSidedArrow.png"));
+
             imgBase1.Source = BaseImage;
             imgBase2.Source = BaseImage;
+
+            imgOverallThickness.Source = DoubleSidedArrow;
+            imgPanel1Thickness.Source = DoubleSidedArrow;
+            imgSpace1Thickness.Source = DoubleSidedArrow;
+            imgPanel2Thickness.Source = DoubleSidedArrow;
+            imgSpace2Thickness.Source = DoubleSidedArrow;
+            imgPanel3Thickness.Source = DoubleSidedArrow;
         }
     }
 }

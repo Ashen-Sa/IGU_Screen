@@ -9,6 +9,7 @@ using System.Data.SqlClient;
 using Dapper;
 using System.Configuration;
 using GlassConfigurator;
+using System.Windows.Documents;
 
 namespace SPIL.IGUConfigurator
 {
@@ -248,8 +249,8 @@ namespace SPIL.IGUConfigurator
 
 
         //private String configOption = "DoubleGlaze";
-        private String configOption = "TripleGlaze";
-        //private String configOption = "QuadrupleGlaze";
+        //private String configOption = "TripleGlaze";
+        private String configOption = "QuadrupleGlaze";
 
         public MainWindow()
         {
@@ -270,7 +271,6 @@ namespace SPIL.IGUConfigurator
             innerCoatingArrow = new BitmapImage(new Uri("pack://application:,,,/Images/Inner.png"));
             outerCoatingArrow = new BitmapImage(new Uri("pack://application:,,,/Images/Outer.png"));
 
-            doubleSidedArrow = new BitmapImage(new Uri("pack://application:,,,/Images/DoubleSidedArrow.png"));
 
             imgSunnySide.Source = sunnySide;
 
@@ -1025,6 +1025,11 @@ namespace SPIL.IGUConfigurator
                 doubleGlazeComp.Surface2ServiceImg.Source = Surface2ServiceImg;
                 doubleGlazeComp.Surface3ServiceImg.Source = Surface3ServiceImg;
                 doubleGlazeComp.Surface4ServiceImg.Source = Surface4ServiceImg;
+
+                doubleGlazeComp.txtBlockPanel1ThicknessVisual.Text = string.IsNullOrWhiteSpace(txtThickness1.Text) ? "0mm" : txtThickness1.Text + "mm";
+                doubleGlazeComp.txtBlockSpace1ThicknessVisual.Text = string.IsNullOrWhiteSpace(txtSpace1.Text) ? "0mm" : txtSpace1.Text + "mm";
+                doubleGlazeComp.txtBlockPanel2ThicknessVisual.Text = string.IsNullOrWhiteSpace(txtThickness2.Text) ? "0mm" : txtThickness2.Text + "mm";
+                doubleGlazeComp.txtBlockOverallThicknessVisual.Text = string.IsNullOrWhiteSpace(txtBlockOverallThickness.Text) ? "0mm" : txtBlockOverallThickness.Text;
             }
             else if (DynamicVisualizationContent.Content is TripleGlazeVisualComp tripleGlazeComp)
             {
@@ -1034,6 +1039,13 @@ namespace SPIL.IGUConfigurator
                 tripleGlazeComp.Surface4ServiceImg.Source = Surface4ServiceImg;
                 tripleGlazeComp.Surface5ServiceImg.Source = Surface5ServiceImg;
                 tripleGlazeComp.Surface6ServiceImg.Source = Surface6ServiceImg;
+
+                tripleGlazeComp.txtBlockPanel1ThicknessVisual.Text = string.IsNullOrWhiteSpace(txtThickness1.Text) ? "0mm" : txtThickness1.Text + "mm";
+                tripleGlazeComp.txtBlockSpace1ThicknessVisual.Text = string.IsNullOrWhiteSpace(txtSpace1.Text) ? "0mm" : txtSpace1.Text + "mm";
+                tripleGlazeComp.txtBlockPanel2ThicknessVisual.Text = string.IsNullOrWhiteSpace(txtThickness2.Text) ? "0mm" : txtThickness2.Text + "mm";
+                tripleGlazeComp.txtBlockSpace2ThicknessVisual.Text = string.IsNullOrWhiteSpace(txtSpace2.Text) ? "0mm" : txtSpace2.Text + "mm";
+                tripleGlazeComp.txtBlockPanel3ThicknessVisual.Text = string.IsNullOrWhiteSpace(txtThickness3.Text) ? "0mm" : txtThickness3.Text + "mm";
+                tripleGlazeComp.txtBlockOverallThicknessVisual.Text = string.IsNullOrWhiteSpace(txtBlockOverallThickness.Text) ? "0mm" : txtBlockOverallThickness.Text;
             }
             else if (DynamicVisualizationContent.Content is QuadrupleGlazeVisualComp quadrupleGlazeComp)
             {
@@ -1045,6 +1057,15 @@ namespace SPIL.IGUConfigurator
                 quadrupleGlazeComp.Surface6ServiceImg.Source = Surface6ServiceImg;
                 quadrupleGlazeComp.Surface7ServiceImg.Source = Surface7ServiceImg;
                 quadrupleGlazeComp.Surface8ServiceImg.Source = Surface8ServiceImg;
+
+                quadrupleGlazeComp.txtBlockPanel1ThicknessVisual.Text = string.IsNullOrWhiteSpace(txtThickness1.Text) ? "0mm" : txtThickness1.Text + "mm";
+                quadrupleGlazeComp.txtBlockSpace1ThicknessVisual.Text = string.IsNullOrWhiteSpace(txtSpace1.Text) ? "0mm" : txtSpace1.Text + "mm";
+                quadrupleGlazeComp.txtBlockPanel2ThicknessVisual.Text = string.IsNullOrWhiteSpace(txtThickness2.Text) ? "0mm" : txtThickness2.Text + "mm";
+                quadrupleGlazeComp.txtBlockSpace2ThicknessVisual.Text = string.IsNullOrWhiteSpace(txtSpace2.Text) ? "0mm" : txtSpace2.Text + "mm";
+                quadrupleGlazeComp.txtBlockPanel3ThicknessVisual.Text = string.IsNullOrWhiteSpace(txtThickness3.Text) ? "0mm" : txtThickness3.Text + "mm";
+                quadrupleGlazeComp.txtBlockSpace3ThicknessVisual.Text = string.IsNullOrWhiteSpace(txtSpace3.Text) ? "0mm" : txtSpace3.Text + "mm";
+                quadrupleGlazeComp.txtBlockPanel4ThicknessVisual.Text = string.IsNullOrWhiteSpace(txtThickness4.Text) ? "0mm" : txtThickness4.Text + "mm";
+                quadrupleGlazeComp.txtBlockOverallThicknessVisual.Text = string.IsNullOrWhiteSpace(txtBlockOverallThickness.Text) ? "0mm" : txtBlockOverallThickness.Text;
             }
 
         }
@@ -1169,12 +1190,50 @@ namespace SPIL.IGUConfigurator
             // Format the display using string interpolation
             string edgeLabels = "Top, Right, Bottom, Left";
 
-            summaryTextBlock.Text =
-                $"Edge Order: {edgeLabels}\n" +
-                $"• Bite Values: [{string.Join(", ", biteValues)}]\n" +
-                $"• Low E Removal Values: [{string.Join(", ", lowEValues)}]\n" +
-                $"• Step Values: [{string.Join(", ", stepValues)}]\n" +
-                $"• Edge Services: [{string.Join(", ", edgeServices)}]\n\n";                
+            // Clear the existing content of the TextBlock
+            summaryTextBlock.Inlines.Clear();
+
+            summaryTextBlock.Inlines.Add(new Run("Edge Order: ")
+            {
+                FontWeight = FontWeights.SemiBold
+            });
+
+            summaryTextBlock.Inlines.Add(new Run(edgeLabels)
+            {
+                FontWeight = FontWeights.DemiBold
+            });
+
+            summaryTextBlock.Inlines.Add(new Run("\n"));
+
+            summaryTextBlock.Inlines.Add(new Run("• Bite Values: ")
+            {
+                FontWeight = FontWeights.DemiBold
+            });
+
+            summaryTextBlock.Inlines.Add(new Run($"[ {string.Join(", ", biteValues)} ]\n"));
+
+            summaryTextBlock.Inlines.Add(new Run("• Low E Removal Values: ")
+            {
+                FontWeight = FontWeights.DemiBold
+            });
+
+            summaryTextBlock.Inlines.Add(new Run($"[ {string.Join(", ", lowEValues)} ]\n"));
+
+            summaryTextBlock.Inlines.Add(new Run("• Step Values: ")
+            {
+                FontWeight = FontWeights.DemiBold
+            });
+
+            summaryTextBlock.Inlines.Add(new Run($"[  {string.Join(", ", stepValues)} ]\n"));
+
+            summaryTextBlock.Inlines.Add(new Run("• Edge Services: ")
+            {
+                FontWeight = FontWeights.DemiBold
+            });
+
+            summaryTextBlock.Inlines.Add(new Run($"[ {string.Join(", ", edgeServices)} ]\n\n"));
+
+
         }
 
         // Panel 1 Event Handlers
@@ -1697,6 +1756,7 @@ namespace SPIL.IGUConfigurator
 
             int overallThickness = thickness1 + thickness2 + thickness3 + thickness4 + space1 + space2 + space3;
             txtBlockOverallThickness.Text = overallThickness.ToString() + "mm";
+            UpdatePreview();
         }
 
         
