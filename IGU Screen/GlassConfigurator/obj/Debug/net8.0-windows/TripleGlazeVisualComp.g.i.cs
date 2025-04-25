@@ -117,7 +117,7 @@ namespace SPIL.IGUConfigurator {
                 return;
             }
             _contentLoaded = true;
-            System.Uri resourceLocater = new System.Uri("/SPIL.IGUConfigurator;component/tripleglazevisualcomp.xaml", System.UriKind.Relative);
+            System.Uri resourceLocater = new System.Uri("/SPIL.IGUConfigurator;V1.0.0.0;component/tripleglazevisualcomp.xaml", System.UriKind.Relative);
             
             #line 1 "..\..\..\TripleGlazeVisualComp.xaml"
             System.Windows.Application.LoadComponent(this, resourceLocater);

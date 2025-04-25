@@ -15,6 +15,7 @@
     <None Remove="Images\Coating.png" />
     <None Remove="Images\Double Glaze IGU.png" />
     <None Remove="Images\DoubleGlazeIGU.png" />
+    <None Remove="Images\DoubleSidedArrow.jpg" />
     <None Remove="Images\Inner.png" />
     <None Remove="Images\LeftEdgeImg.png" />
     <None Remove="Images\Mirror.png" />
@@ -43,6 +44,7 @@
     <Resource Include="Images\BottomEdgeImg.png" />
     <Resource Include="Images\Coating.png" />
     <Resource Include="Images\DoubleGlazeIGU.png" />
+    <Resource Include="Images\DoubleSidedArrow.jpg" />
     <Resource Include="Images\Inner.png" />
     <Resource Include="Images\LeftEdgeImg.png" />
     <Resource Include="Images\Mirror.png" />

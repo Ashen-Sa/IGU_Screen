@@ -93,7 +93,7 @@ namespace SPIL.IGUConfigurator {
                 return;
             }
             _contentLoaded = true;
-            System.Uri resourceLocater = new System.Uri("/SPIL.IGUConfigurator;component/doubleglazevisualcomp.xaml", System.UriKind.Relative);
+            System.Uri resourceLocater = new System.Uri("/SPIL.IGUConfigurator;V1.0.0.0;component/doubleglazevisualcomp.xaml", System.UriKind.Relative);
             
             #line 1 "..\..\..\DoubleGlazeVisualComp.xaml"
             System.Windows.Application.LoadComponent(this, resourceLocater);

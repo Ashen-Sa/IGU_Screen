@@ -34,6 +34,7 @@ namespace SPIL.IGUConfigurator
         private readonly BitmapImage outerCoatingArrow;
         private readonly BitmapImage mirrorImage;
         private readonly BitmapImage sandBlastImage;
+        private readonly BitmapImage doubleSidedArrow;
 
 
         // Surface Service Images
@@ -269,6 +270,7 @@ namespace SPIL.IGUConfigurator
             innerCoatingArrow = new BitmapImage(new Uri("pack://application:,,,/Images/Inner.png"));
             outerCoatingArrow = new BitmapImage(new Uri("pack://application:,,,/Images/Outer.png"));
 
+            doubleSidedArrow = new BitmapImage(new Uri("pack://application:,,,/Images/DoubleSidedArrow.png"));
 
             imgSunnySide.Source = sunnySide;
 

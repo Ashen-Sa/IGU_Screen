@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("SPIL.IGUConfigurator")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+769c673bd10ca1fa727f440ec3ff6f7c5491e1c9")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+437855876494676ab444768a48b2be48240a36d0")]
 [assembly: System.Reflection.AssemblyProductAttribute("SPIL.IGUConfigurator")]
 [assembly: System.Reflection.AssemblyTitleAttribute("SPIL.IGUConfigurator")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
